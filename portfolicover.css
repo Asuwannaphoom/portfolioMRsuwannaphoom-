@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(156, 156, 156);
+   
+}
+
+*{
+    margin: 0;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: #dad6d6 5px solid;
+    
+
+}
+
+a{
+    
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color:white;
+    color: #000;
+     border-right: #969696 solid;
+     padding-right: 24px;
+     
+
+}
+
+.Box{
+    width: 1000px;
+    height: 1155px;
+    background-color: #4f6f52;
+   margin: auto;
+   margin-top: -40px;
+  
+  
+  
+}
+.box1{
+    margin-right: 30px;
+    text-align: right;
+    margin-left: 600px;
+}
+
+.l1{
+    font-size: 35px;
+    margin-top: 66px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+     
+}
+.line{
+    border: #ffffff solid 2.7px;
+    width: 330px;
+    padding-right: 50px;
+   
+    margin-bottom: 15px;
+}
+.l2{
+  
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      
+}
+.l3{
+    font-size:18px;
+    color: #ffffff;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+     
+}
+.me{
+    max-width: 350px;
+    max-height: 700px;
+    position: relative;
+    left: 240px;
+    top: -60px;
+}
+.Box2{
+   
+  margin-right: 15px;
+   margin-top: 500px;
+   margin-bottom: -259px;
+     
+}
+.box2{
+ background-color: #ffffff;
+margin-right: 700px;
+margin-top: -690px;
+
+
+}
+.por{
+    margin: reveit ;
+    writing-mode: vertical-rl; 
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 0px;
+    font-size: 200px;
+    
+   
+}

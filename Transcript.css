@@ -1,0 +1,58 @@
+body{
+    background-color:  rgb(156, 156, 156);
+}
+
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: #dad6d6 5px solid;
+
+}
+
+a{
+    
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color:white;
+    color: #000;
+     border-right: #969696 solid;
+     padding-right: 24px;
+     
+
+}
+.Paper{
+    background-image: url(image/grid_background_solid.png);
+    width: 1000px;
+    height: 1100px;
+    margin: auto;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: right;
+}
+h1{
+font-size: 100px;
+text-decoration: underline;
+}
+h2{
+font-size: 50px;
+text-decoration: underline;
+}
+.P{
+    width: 800px;
+      height: 800px;
+      background-color: white;
+      margin: auto;
+}

@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(156, 156, 156);
+}
+
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: #dad6d6 5px solid;
+
+}
+
+a{
+    
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color:white;
+    color: #000;
+     border-right: #969696 solid;
+     padding-right: 24px;
+     
+
+}
+.A{
+    background-image: url(image/grid_background_solid.png);
+    width: 1000px;
+    height: 3000px;
+    
+    margin: auto;
+    text-align: end;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.a1{
+    font-size: 100px;
+}
+.a2{
+    margin-top: -10px;
+    font-size: 50px;
+}
+.B1{
+    background-color: white;
+    width: 1000px;
+    height: 2500px;
+    margin: auto;
+}
+.m1{
+  position: relative;
+  width: 550px;
+  margin: 10px;
+  border: #000 solid;
+}
+.m11{
+font-size: 20px;
+color: #000;
+text-align: start;
+margin-left: 40px;
+}
+
+.line{
+    width: 300px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    border: #000 1px solid;
+}
+
+.m2{
+    position: relative;
+    width: 550px;
+    margin: 10px;
+    border: #000 solid;
+    margin-right: 200px;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .b1{
+  width: 390px;
+  margin-left: 20px;
+  
+  max-height: auto;
+  }
+  .b2{
+    width: 390px ;
+    margin-right: 50px;
+
+  }
+  .b3{
+    height: 300px;
+    max-width: auto;
+    margin-right: 520px;
+    margin-top: 20px;
+
+  }

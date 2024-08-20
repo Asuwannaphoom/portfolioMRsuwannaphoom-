@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(156, 156, 156);
+}
+
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: #dad6d6 5px solid;
+
+}
+
+a{
+    
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color:white;
+    color: #000;
+     border-right: #969696 solid;
+     padding-right: 24px;
+     
+
+}
+
+.background{
+   
+    background-size: cover;
+    display: block;
+margin: auto;
+    width: 800px;
+    height: 300px;
+    background-image: url(image/grid_background_solid.png);
+}
+
+.Heading{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 80px;
+    color:  white;
+    font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.heading {
+    margin-top: -10px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.background2{
+    display: block;
+    margin: auto; 
+    width: 800px;
+    height: auto;
+    background-color: white;
+}
+
+.p1{
+    padding: 20px;
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.line{
+    margin-top: 150px;
+    margin-left: 40px;
+    border-bottom: #000 solid;
+    width: 350px;
+    height: 5px;
+}
+้
+
+
+.name , h2{
+    padding-bottom: 30px;
+width: 400px;
+text-align: center;
+font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
