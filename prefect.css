@@ -99,3 +99,51 @@ font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+@media  (max-width: 1120px) {
+   
+    
+    a{
+        
+       
+        font-size:20px;
+        
+ }
+}
+@media  (max-width: 970px) {
+   
+    
+    a{
+        
+       
+        font-size:15px;
+        
+ }
+
+ @media  (max-width: 778px) {
+   
+    
+    a{
+        
+       
+        font-size:13px;
+        
+ }
+}
+@media  (max-width: 816px) {
+   
+    .background{
+        width: 700px;
+    }
+    .background2{
+        width: 700px;
+       
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .heading{
+        margin-top: -27px;
+    }
+    
+}
+}

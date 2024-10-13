@@ -34,8 +34,8 @@ a{
 .Paper{
     
     background-color: white;
-    width: 1000px;
-    height:2000px;
+    width: 900px;
+    height:1100px;
     margin: auto;
 }
 
@@ -43,7 +43,7 @@ a{
     background-color: #4f6f52 ;
    
     margin-left: 400px;
-    height: 2000px;
+    height: 1100px;
 }
 .Head{
     color: white;
@@ -100,7 +100,7 @@ margin-left: 70px;
 .paper2{
      width: 350px;
      margin-left: -340px;
-     margin-top: -300px;
+     margin-top: -500px;
      height: 300px;
      background-color: #000;
 
@@ -115,3 +115,40 @@ margin-left: 70px;
     margin-left: 70px;
 }
 
+.me{
+    width: 350px;
+    height: 450px;
+    margin-top: -500px;
+    float: left;
+}
+
+@media  (max-width: 1120px) {
+   
+    
+    a{
+        
+       
+        font-size:20px;
+        
+ }
+}
+@media  (max-width: 970px) {
+   
+    
+    a{
+        
+       
+        font-size:15px;
+        
+ }
+
+ @media  (max-width: 778px) {
+   
+    
+    a{
+        
+       
+        font-size:13px;
+    }
+}
+}

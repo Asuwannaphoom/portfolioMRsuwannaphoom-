@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Fullscreen Image</title>
+    <style>
+        .image {
+            width: 300px;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        .fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: contain;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-gallery">
+        <img src="image/TKU TKU002 ใบรับรอง _ Thai MOOC_LMS_001.png" alt="Image 1" class="image">
+        <img src="image/TKU TKU002 ใบรับรอง _ Thai MOOC_LMS_001.png" alt="Image 2" class="image">
+        <img src="image/TKU TKU002 ใบรับรอง _ Thai MOOC_LMS_001.png" alt="Image 3" class="image">
+        <!-- เพิ่มรูปภาพตามต้องการที่นี่ -->
+    </div>
+    
+    <script>
+        const images = document.querySelectorAll('.image');
+
+        images.forEach(function(img) {
+            img.addEventListener('click', function () {
+                if (!this.classList.contains('fullscreen')) {
+                    this.classList.add('fullscreen');
+                } else {
+                    this.classList.remove('fullscreen');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

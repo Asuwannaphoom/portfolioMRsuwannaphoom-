@@ -50,7 +50,7 @@ font-size: 50px;
 .p{
     background-color: #4f6f52;
     width: 1000px;
-    height: 800px;
+    height: 1500px;
     margin: auto;
     
 }
@@ -63,9 +63,52 @@ font-size: 50px;
 
 }
 .m{
-    max-width: 600px;
-    max-height: 400px;
+    cursor: pointer;
+   transition: all 0.3s ease;
+    width: 600px;
+    height: 400px;
     margin-top: 20px;
+    
+    
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: 9999;
+}
+
+@media  (max-width: 1120px) {
    
     
+    a{
+        
+       
+        font-size:20px;
+        
+ }
+}
+@media  (max-width: 970px) {
+   
+    
+    a{
+        
+       
+        font-size:15px;
+        
+ }
+
+ @media  (max-width: 778px) {
+   
+    
+    a{
+        
+       
+        font-size:13px;
+    }
+}
 }

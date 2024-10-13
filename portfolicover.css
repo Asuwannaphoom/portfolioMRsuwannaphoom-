@@ -36,7 +36,7 @@ a{
 
 .Box{
     width: 1000px;
-    height: 1155px;
+    height: 1160px;
     background-color: #4f6f52;
    margin: auto;
    margin-top: -40px;
@@ -57,7 +57,7 @@ a{
     color: #ffffff;
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings: "wdth" 100;
      
@@ -75,7 +75,7 @@ a{
     color: #ffffff;
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
@@ -86,30 +86,33 @@ a{
     color: #ffffff;
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
      
 }
 .me{
-    max-width: 350px;
-    max-height: 700px;
+
+    max-width: 600px;
+   border: #969696 solid;
     position: relative;
-    left: 240px;
-    top: -60px;
+    left: 270px;
+    top: 40px;
 }
 .Box2{
    
   margin-right: 15px;
-   margin-top: 500px;
-   margin-bottom: -259px;
+   margin-top: -977px;
+   margin-bottom: -263px;
+   
      
 }
 .box2{
+    margin-top: -700px;
+    border:#969696 solid ;
  background-color: #ffffff;
 margin-right: 700px;
-margin-top: -690px;
 
 
 }
@@ -118,7 +121,7 @@ margin-top: -690px;
     writing-mode: vertical-rl; 
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
@@ -126,4 +129,48 @@ margin-top: -690px;
     font-size: 200px;
     
    
+}
+.line1{
+    border: #ffffff solid 2.7px;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 190px;
+}
+.line2{
+    border: #ffffff solid 2.7px;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 20px;
+  
+}
+@media  (max-width: 1120px) {
+   
+    
+    a{
+        
+       
+        font-size:20px;
+        
+ }
+}
+@media  (max-width: 970px) {
+   
+    
+    a{
+        
+       
+        font-size:15px;
+        
+ }
+
+ @media  (max-width: 778px) {
+   
+    
+    a{
+        
+       
+        font-size:13px;
+        
+ }
+}
 }

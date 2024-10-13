@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Certificate.css">
     <title>Document</title>
+    
 </head>
 <body>
     <nav>
@@ -18,21 +19,42 @@
         <a href="Transcript.html">ใบแสดงผลการเรียนการเรียน</a>
         <a href="Activities.html">กิจกรรมที่เคยทำ</a>
         <a href="Certificate..html">เกียรติบัติ</a>
-      
     </nav>   
+
     <div class="P">
         <h1>Certificate</h1>
         <h2>เกียรติบัตร</h2>
-    <div class="p   ">
-        <div class="i">
-            <img src="image/เกียติบัต-2_page-0001.jpg" alt="#" class="m">
-            <h3 style="text-align: center; color: white;">แข่งขันเขียนภาษาโปรแกรมด้วยภาษาคอมพิวเตอร์</h3>
-           
 
+        <div class="p">
+            <div class="i">
+                <img src="image/เกียติบัต-2_page-0001.jpg" alt="Image 1" class="m" id="image1">
+                <h3 style="text-align: center; color: white;">แข่งขันเขียนภาษาโปรแกรมด้วยภาษาคอมพิวเตอร์</h3>
+            </div>  
+
+            <div class="i">
+                <img src="image/TKU TKU002 ใบรับรอง _ Thai MOOC_LMS_001.png" alt="Image 2" class="m" id="image2">
+                <h3 style="text-align: center; color: white;">อบรมความรู้ความสามารถและความคิดของ AI</h3>
+            </div>
+
+            <div class="i">
+                <img src="image/CU CU005 ใบรับรอง _ Thai MOOC_LMS_001.png" alt="Image 3" class="m" id="image3">
+                <h3 style="text-align: center; color: white;">อบรมการสร้างหน้าเว็บเบื้องต้นด้วย HTML และ CSS</h3>
+            </div>
         </div>
-
     </div>
 
-    </div>
+    <script>
+        const images = document.querySelectorAll('#image1, #image2, #image3');
+
+        images.forEach(function(img) {
+            img.addEventListener('click', function () {
+                if (!this.classList.contains('fullscreen')) {
+                    this.classList.add('fullscreen');
+                } else {
+                    this.classList.remove('fullscreen');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
